@@ -5,7 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ar_project"
 version = "0.1.0"
-dependencies = []
+dependencies = [    
+    "opencv-python",
+    "numpy"]
 
 [tool.setuptools.packages.find]
 include = ["ar_project"]
