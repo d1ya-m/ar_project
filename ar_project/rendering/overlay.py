@@ -4,11 +4,12 @@ def overlay_cube(image, center):
 
     x,y = center
 
+    #give top left and bottom right coords
     cv2.rectangle(
         image,
         (x-50,y-50),
         (x+50,y+50),
-        (255,0,0),
+        (255,0,0), #colour-blue
         3
     )
 
